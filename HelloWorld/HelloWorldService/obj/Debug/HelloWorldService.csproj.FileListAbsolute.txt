@@ -1,0 +1,7 @@
+C:\d\temp\HelloWorld\HelloWorld\HelloWorldService\obj\Debug\HelloWorldService.csprojResolveAssemblyReference.cache
+C:\d\temp\HelloWorld\HelloWorld\HelloWorldService\bin\Debug\HelloWorldService.dll
+C:\d\temp\HelloWorld\HelloWorld\HelloWorldService\bin\Debug\HelloWorldService.pdb
+C:\d\temp\HelloWorld\HelloWorld\HelloWorldService\bin\Debug\HelloWorldWriter.dll
+C:\d\temp\HelloWorld\HelloWorld\HelloWorldService\bin\Debug\HelloWorldWriter.pdb
+C:\d\temp\HelloWorld\HelloWorld\HelloWorldService\obj\Debug\HelloWorldService.dll
+C:\d\temp\HelloWorld\HelloWorld\HelloWorldService\obj\Debug\HelloWorldService.pdb

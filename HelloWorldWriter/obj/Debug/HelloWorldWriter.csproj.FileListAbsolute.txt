@@ -1,0 +1,4 @@
+C:\d\temp\HelloWorld\HelloWorldWriter\bin\Debug\HelloWorldWriter.dll
+C:\d\temp\HelloWorld\HelloWorldWriter\bin\Debug\HelloWorldWriter.pdb
+C:\d\temp\HelloWorld\HelloWorldWriter\obj\Debug\HelloWorldWriter.dll
+C:\d\temp\HelloWorld\HelloWorldWriter\obj\Debug\HelloWorldWriter.pdb
