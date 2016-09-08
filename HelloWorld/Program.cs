@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using HelloWorldService;
 using HelloWorldWriter;
 
@@ -8,10 +9,9 @@ namespace HelloWorld
 	{
 		static void Main(string[] args)
 		{
-			IHelloWorldWriter writer = HelloWorldWriterFactory.GetInstance(HelloWorldWriterType.Console);
-			writer.Write("Hello World");
+			HelloWorldWriterType helloWorldWriterType = (HelloWorldWriterType)Enum.Parse(typeof(HelloWorldWriterType), ConfigurationManager.AppSettings["WriterType"] ?? "0");
 
-			writer = HelloWorldWriterFactory.GetInstance(HelloWorldWriterType.Database);
+			IHelloWorldWriter writer = HelloWorldWriterFactory.GetInstance(helloWorldWriterType);
 			writer.Write("Hello World");
 			Environment.Exit(0);
 		}
