@@ -6,7 +6,7 @@ namespace HelloWorldWriter
 	{
 		public void Write(string text)
 		{
-			Console.WriteLine(string.Format("{0} has been added to the database", text));
+			Console.WriteLine(string.Format("{0} from DataBaseHelloWorldWriter", text));
 		}
 	}
 }

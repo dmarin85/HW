@@ -6,7 +6,7 @@ namespace HelloWorldWriter
 	{
 		public void Write(string text)
 		{
-			Console.WriteLine(text);
+			Console.WriteLine(string.Format("{0} from ConsoleHelloWorldWriter", text));
 		}
 	}
 }

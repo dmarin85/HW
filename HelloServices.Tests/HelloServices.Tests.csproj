@@ -94,13 +94,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HelloWorldService\HelloWorldService.csproj">
+      <Project>{4a945f1a-9b2c-4ea2-bb36-e881ec57f552}</Project>
+      <Name>HelloWorldService</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HelloWorldWriter\HelloWorldWriter.csproj">
       <Project>{f0a47be9-3795-4b40-af40-2da5c0d5c485}</Project>
       <Name>HelloWorldWriter</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\HelloWorld\HelloWorldService\HelloWorldService.csproj">
-      <Project>{4a945f1a-9b2c-4ea2-bb36-e881ec57f552}</Project>
-      <Name>HelloWorldService</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
